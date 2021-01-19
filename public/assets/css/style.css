@@ -17,3 +17,57 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+.Eat {
+  color: black;
+  background-color: orange;
+}
+
+h1 {
+  text-align: center;
+  background-color: orange;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+  color: black;
+}
+
+ul {
+  background-color: orange;
+  opacity: 90;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  background-size: 300px 100px;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+body {
+  background-image: url("burger-seamless-pattern-background-vector-design_22159-34.jpg");
+  background-color: #cccccc;
+ }
+
+ .delete-cat {
+  color: black;
+  background-color: orange;
+ }
+
+ .bu {
+  font-weight: bold;
+  font-size: large;
+ }
+
+ h4 {
+  display: flex;
+  justify-content:flex-end;
+  justify-content: space-between;
+}
+
+ul.right {
+  color: black;
+  margin-left: 70%
+}

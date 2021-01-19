@@ -1,4 +1,5 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
+//0 is false and 1 is equal to true
 $(function() {
   $(".Eat").on("click", function(event) {
     var id = $(this).data("id");
@@ -9,6 +10,7 @@ $(function() {
     };
 
     // Send the PUT request. the data property always in the body
+    //update burgers table
     $.ajax("/api/cats/" + id, {
       type: "PUT",
       data: newSleepState

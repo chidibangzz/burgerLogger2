@@ -1,6 +1,7 @@
 // Import the ORM to create functions that will interact with the database.
 var orm = require("../config/orm.js");
 
+//grabbing all burgers and storing in database
 var cat = {
   all: function (cb) {
     orm.all("burgers", function (res) {

@@ -1,6 +1,6 @@
-<h1>Cats!</h1>
+<h1>Burger Joint!</h1>
 
-<h2>Cats that are not sleepy!</h2>
+<h2>Home made burgers</h2>
 
 <ul>
   {{#each burgers}}
@@ -8,7 +8,7 @@
       {{burger_name}}
 
 	<button class="Eat" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		Eat burger
+		TAKE A BITE
 	</button>
 
 	
@@ -18,9 +18,13 @@
   {{/each}}
 </ul>
 
-<h2>burgers that have been devoured!</h2>
 
-<ul>
+
+
+
+<h2>ßurgers that have been devoured!</h2>
+<h4>
+<ul class="right">
   {{#each burgers}}
     {{#if devoured}}
      {{burger_name}}
@@ -30,8 +34,10 @@
     {{/if}}
   {{/each}}
 </ul>
+</h4>
 
-<h2>Add a Cat</h2>
+ 
+<h2>Add a burger</h2>
 <form class="create-form">
 
   <div class="form-group">

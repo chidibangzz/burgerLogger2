@@ -15,7 +15,7 @@ router.get("/", function (req, res) {
     res.render("index", hbsObject);
   });
 });
-
+//create
 router.post("/api/cats", function (req, res) {
   cat.create([
     "burger_name", "devoured"
@@ -29,6 +29,7 @@ router.post("/api/cats", function (req, res) {
   });
 });
 
+//update
 router.put("/api/cats/:id", function (req, res) {
   var condition = "id = " + req.params.id;
 
