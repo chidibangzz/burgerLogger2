@@ -20,18 +20,22 @@ li {
 
 .Eat {
   color: black;
-  background-color: orange;
+  background-color: wheat;
 }
 
 h1 {
   text-align: center;
   background-color: orange;
   font-weight: bold;
+  color: green;
 }
 
 h2 {
   font-size: 40px;
-  color: black;
+  color: green;
+  background-color: rgb(255, 196, 0);
+  opacity:90%;
+  width: fit-content;
 }
 
 ul {
@@ -44,7 +48,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   width: fit-content;
-
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 body {
@@ -54,7 +58,7 @@ body {
 
  .delete-cat {
   color: black;
-  background-color: orange;
+  background-color: wheat;
  }
 
  .bu {
@@ -70,5 +74,11 @@ body {
 
 ul.right {
   color: black;
-  margin-left: 70%
+  margin-left: 70%;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.create-form {
+  font-size: 20px;
+  font-weight: bold;
 }

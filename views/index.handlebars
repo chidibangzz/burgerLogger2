@@ -8,7 +8,7 @@
       {{burger_name}}
 
 	<button class="Eat" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		TAKE A BITE
+		DEVOUR ME!!!
 	</button>
 
 	
@@ -28,7 +28,7 @@
   {{#each burgers}}
     {{#if devoured}}
      {{burger_name}}
-     <button class="delete-cat" data-id="{{this.id}}">DELETE!</button>
+     <button class="delete-cat" data-id="{{this.id}}">THROW ME AWAY!</button>
      <br>
 
     {{/if}}
@@ -38,10 +38,11 @@
 
  
 <h2>Add a burger</h2>
+
 <form class="create-form">
 
   <div class="form-group">
-    <label for="bu">Burger Name:</label>
+    <label for="bu">Lets make a burger:</label>
     <input type="text" id="bu" name="name">
   </div>
 
