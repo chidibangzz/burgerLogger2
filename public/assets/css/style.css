@@ -43,6 +43,7 @@ ul {
   background-size: 300px 100px;
   flex-direction: column;
   justify-content: space-between;
+  width: fit-content;
 
 }
 
