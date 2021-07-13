@@ -1,5 +1,4 @@
 ## Project title
-Git hub
 Come try my delicious burgers or build your own and add it to your menu, if you dont like the burger throw it in the trash.
 
 ## Motivation
